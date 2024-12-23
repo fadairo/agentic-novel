@@ -38,4 +38,16 @@ You can optionally **store** and **query** scene data or user clarifications in 
 ---
 
 ## Project Structure
+```text
+agentic_novel/
+├── agentic_novel.py         # Main script containing:
+│   ├── ChatGPT01LLM         # ChatGPT 01 wrapper
+│   ├── PineconeContextStore # Pinecone utilities
+│   ├── LiteraryAgent        # Critique logic
+│   ├── write_scene()        # Scene-by-scene drafting function
+│   ├── write_chapter()      # Chapter orchestration function
+│   └── write_novel()        # High-level novel-writing orchestrator
+├── example_novel_chapters/  # Output directory for chapters (created at runtime)
+├── requirements.txt         # Python dependencies (if needed)
+└── README.md                # You are here!
 
