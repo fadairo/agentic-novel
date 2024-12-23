@@ -1,0 +1,2 @@
+# agentic-novel
+Agentic storytelling
